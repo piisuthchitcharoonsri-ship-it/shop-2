@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ร้านค้า</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>ร้านเสื้อผ้า Pastel</h1>
+    <nav>
+      <a href="index.html" class="nav-link">หน้าแรก</a>
+      <a href="shop.html" class="nav-link">ร้านค้า</a>
+      <a href="cart.html" class="nav-link">ตะกร้า <span id="cart-count">0</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>สินค้าของเรา</h2>
+    <div class="products">
+      <div class="product">
+        <img src="images/shirt1.jpg" alt="เสื้อ 1">
+        <h3>เสื้อสีชมพู</h3>
+        <p>ราคา: 350 บาท</p>
+        <button onclick="addToCart('เสื้อสีชมพู', 350)">เพิ่มใส่ตะกร้า</button>
+      </div>
+      <div class="product">
+        <img src="images/shirt2.jpg" alt="เสื้อ 2">
+        <h3>เสื้อสีฟ้า</h3>
+        <p>ราคา: 380 บาท</p>
+        <button onclick="addToCart('เสื้อสีฟ้า', 380)">เพิ่มใส่ตะกร้า</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
