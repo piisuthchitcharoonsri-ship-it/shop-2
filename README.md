@@ -1,5 +1,6 @@
-index.html
-shop.html  
-cart.html       
-style.css
-script.js 
+my shop/
+      index.html
+      shop.html  
+      cart.html       
+      style.css
+      script.js 
